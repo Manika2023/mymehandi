@@ -1,6 +1,7 @@
 import React from "react";
 // import HeroSection from "./components/HeroSection";
 import HeroSection from "../components/HeroSection";
+import ContactSection from "../components/ContactSection";
 
 const Contact = () => {
   return (
@@ -78,18 +79,12 @@ const Contact = () => {
 
 {/* lower part of map */}
     <div className="px-52 py-2">
-    <iframe
-  title="Google Map"
-  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28047.318057643446!2d77.068689!3d28.615605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d03422c344d5f%3A0xcd44babcaf75383e!2sBack%20of%20Safal%20Dairy%20C4E%2C%20Main%20Market%20Marg%2C%20Block%20C3A%2C%20Block%20C%204E%2C%20Janakpuri%2C%20New%20Delhi%2C%20Delhi%2C%20110058!5e0!3m2!1sen!2sin!4v1618411111111!5m2!1sen!2sin"
-  width="100%"
-  height="400"
-  style={{ border: 0 }}
-  allowFullScreen=""
-  loading="lazy"
-  referrerPolicy="no-referrer-when-downgrade"
-  className="rounded-lg shadow-lg"
-></iframe>
-
+    <ContactSection
+          phone="+91 9990147462"
+          email="singhmanika409@gmail.com"
+          address="Vijay Bridal Mehandi, Back of Safal Dairy C4E, Main Market Marg, Block C3A, Block C 4E, Janakpuri, New Delhi, Delhi, 110058"
+          mapUrl="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28047.318057643446!2d77.068689!3d28.615605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d03422c344d5f%3A0xcd44babcaf75383e!2sBack%20of%20Safal%20Dairy%20C4E%2C%20Main%20Market%20Marg%2C%20Block%20C3A%2C%20Block%20C%204E%2C%20Janakpuri%2C%20New%20Delhi%2C%20Delhi%2C%20110058!5e0!3m2!1sen!2sin!4v1618411111111!5m2!1sen!2sin"
+        />
         </div>
 
     </div>
